@@ -1,0 +1,2 @@
+1. The bug was that the code was treating the num1 and num2 as text instead of numbers. Therefore, when they were added together, the output was a concatenation rather than regular addition.
+2. I would convert the data from a string to an int. Then addition should work as expected.
